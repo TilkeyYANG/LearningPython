@@ -25,8 +25,8 @@ for i in range(pts):
     vectors_set.append([x1, y1])
 
 # 生成样本
-    x_data = [v[0] for v in vectors_set]
-    y_data = [v[1] for v in vectors_set]
+x_data = [v[0] for v in vectors_set]
+y_data = [v[1] for v in vectors_set]
 
 # 显示关于 x y 的点阵
 plt.scatter(x_data, y_data, c='r')
